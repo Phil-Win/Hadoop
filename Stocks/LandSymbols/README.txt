@@ -1,0 +1,1 @@
+The goal of this project is to get a daily updated stock symbol ticker list.
