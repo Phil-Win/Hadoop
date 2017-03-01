@@ -7,4 +7,4 @@ while read p; do
 	exchange_name="${exchange_array[0]}"
 	download_url="${exchange_array[1]}"
 	wget "${download_url}" -O "${lz_folder}/${exchange_name}${today}".csv
-done < "${dyna_prop_folder}/LandSymbols_LandingZone.properties"
+done < "${dyna_prop_folder}/LandSymbols_ExchangeList.properties"
